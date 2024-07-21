@@ -1,0 +1,106 @@
+\documentclass[12pt, letterpaper, twoside]{article}
+\usepackage{graphicx}% LaTeX package to import graphics
+\graphicspath{{images/}} % configuring the graphicx package
+
+\title{My first LaTeX document}
+\author{Raksha Raut}
+
+\date{july 2024}
+\begin{document}
+\parindent0pt% To remove the paragraph indentation
+\maketitle
+% \includegraphics{raksha}
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.75\textwidth]{raksha}
+    \caption{A Memory.}
+    \label{raksha}
+
+ 
+As you can see in figure \ref{raksha},this is a snap from tech parva2.0.
+%\pageref{raksha}.
+\end{figure}
+
+%font styling
+
+\begin{itemize}
+  \item I am from \emph{Dhanusha},studying computer science at pashchimanchal collage.
+  \item I'm from 2078 batch.
+\end{itemize}
+
+\begin{enumerate}
+  \item \textit{I am from \emph{Dhanusha},studying computer science at pashchimanchal collage.}
+  \item I'm from 2078 batch.
+
+\end{enumerate}
+\maketitle
+  
+\tableofcontents
+
+\section{Introduction}
+   
+This is the first section.
+      
+Lorem  ipsum  dolor  sit  amet,  consectetuer  adipiscing  
+elit. 
+\section*{Unnumbered Section}
+\addcontentsline{toc}{section}{Unnumbered Section}
+
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit.  
+
+\section{Second Section}
+       
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit.  
+
+
+
+  \textbf{I am from  \emph{Dhanusha},studying computer science in pashchimanchal collage.}
+ %MATH TIME 
+%Inline math mode
+
+In physics, the mass-energy equivalence is stated 
+by the equation $E=mc^2$, discovered in 1905 by Albert Einstein.
+
+\begin{math}
+E=mc^2
+\end{math} is typeset in a paragraph using inline math mode---as is $E=mc^2$, and so too is \(E=mc^2\).
+
+%Display math mode
+The mass-energy equivalence is described by the famous equation
+\[ E=mc^2 \] discovered in 1905 by Albert Einstein. 
+
+In natural units ($c = 1$), the formula expresses the identity
+\begin{equation}
+E=m
+\end{equation}
+% \\ || \newline for newline 
+
+
+\section{Section3}
+
+This is the first section.
+
+\section{4th Section}
+
+It seems like there might be a misunderstanding or a typo in the command syntax. The error message suggests that the command grv origin git@github.com:RakshaRaut/LatexStyles.git is not recognized as a valid Git command.\\It seems like there might be a misunderstanding or a typo in the command syntax. The error message suggests that the command grv origin git@github.com:RakshaRaut/LatexStyles.git is not recognized as a valid Git command.
+
+To add a remote repository named origin using Oh-My-Zsh Git plugin, you should use the shorthand form directly:
+
+\subsection{Table as Subsection}
+%\end{document}
+
+%    to add horizontal rules, above and below rows, use the \hline command
+%    to add vertical rules, between columns, use the vertical line parameter |
+%creating Tables
+\begin{center}
+\begin{tabular}{|c|c|c|} 
+ \hline
+ himaya1 & himaya2 & himaya3 \\ 
+ boho4 & boho5 & boho6 \\ 
+ hogo7 & hogo8 & hogo9 \\ 
+ \hline
+\end{tabular}
+\end{center}
+
+
+\end{document}
